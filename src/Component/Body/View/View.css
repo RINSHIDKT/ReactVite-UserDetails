@@ -1,0 +1,37 @@
+.view-details-div{
+ display: flex;
+ margin-left: 100px;
+}
+.view-img img{
+  width: 86%;
+  margin-top: 5%;
+  border-radius: 10px;
+  height: 200px;
+}
+.view-img h2{
+  padding-top: 28%;
+}
+.view-other-details td{
+  padding-right: 150px;
+  border: 1px solid transparent;
+  color: black;
+}
+.view-other-details th{
+  padding-right: 100px;
+  border: 1px solid transparent;
+  color: black;
+  padding-left: 50px;
+}
+.view-other-details table{
+  border: 1px solid transparent;
+}
+.view-other-details{
+  padding-bottom: 40px;
+}
+.view-main{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.701),rgba(255, 255, 255, 0.696));
+  width: 60%;
+  margin: auto;
+  margin-top: 8%;
+  border-radius: 10px;
+}

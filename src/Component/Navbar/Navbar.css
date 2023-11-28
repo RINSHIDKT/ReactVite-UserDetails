@@ -1,0 +1,29 @@
+.nav-left h2{
+    margin: auto;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 18%;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+#navbarNav{
+    margin-left: 10%;
+}
+#home-link:hover{
+    border-bottom: 1px solid white;
+    transition: 0.8s;
+}
+#about-link:hover{
+    border-bottom: 1px solid white;
+    transition: 0.8s;
+}
+#reg-link:hover{
+    border-bottom: 1px solid white;
+    transition: 0.8s;
+}
+.navbar-nav{
+    margin-right: 43%;
+}

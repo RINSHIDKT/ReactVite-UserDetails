@@ -1,0 +1,117 @@
+table {
+  border-collapse: collapse;
+  width: 50%;
+  border: 2px solid black;
+  margin-top: 6%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: white;
+  outline-offset: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.action{
+  padding-left: 24%;
+}
+.id{
+  padding-left: 4%;
+}
+.username{
+  padding-left: 4%;
+}
+th {
+  background-color: transparent;
+  color: white;
+}
+.view-btn {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  border: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+.view-btn:hover{
+  background-color: rgba(128, 128, 128, 0.265);
+  transition: 0.8s;
+}
+.edit-btn:hover{
+  background-color: rgba(128, 128, 128, 0.265);
+  transition: 0.8s;
+}
+.delete-btn:hover{
+  background-color: rgba(128, 128, 128, 0.265);
+  transition: 0.8s;
+  text-decoration: none;
+  color: red;
+}
+.edit-btn {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  border: 1px solid green;
+  color: green;
+}
+
+.delete-btn {
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: none;
+  padding: 5px 30px;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: bold;
+  border: 1px solid red;
+  color: red;
+  text-decoration: none;
+}
+body{
+  background-image:url("../Home/userdetails.jpg");
+  background-size: cover;
+  margin-bottom: 9%;
+  height: 100vh;
+
+}
+.tablemain{
+  margin: auto;
+  margin-top: 1%;
+  width: 80%;
+}
+.home-table-main{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.801),rgba(255, 255, 255, 0.815));
+  width: 60%;
+  margin: auto;
+  padding-top: 10px;
+  padding-bottom: 18px;
+  border-radius: 10px;
+  margin-top: 0.6%;
+}
+.tablemain th{
+  color: black;
+  border: 1px solid black;
+}
+.tablemain td{
+  color: black;
+  border: 1px solid black;
+}
+.btn-area td{
+  border: 1px solid transparent;
+}
+.btn-area{
+  margin-left: 12%;
+}
+.action{
+  width: 60%;
+}
+.buttondl button{
+  border-bottom: 1px solid black;
+}
